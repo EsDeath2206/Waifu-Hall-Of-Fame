@@ -1,0 +1,108 @@
+/* Arrière-plan principal */
+:host {
+  display: block;
+  background-image: url('https://i.postimg.cc/3xp5hPHh/hall2.webp'); /* Remplace par ton URL d'image */
+  background-size: cover; /* L'image couvre tout l'écran */
+  background-position: center; /* Centrer l'image */
+  background-attachment: fixed; /* L'image reste fixe pendant le défilement */
+  height: 100vh; /* S'adapte à la hauteur de l'écran */
+  overflow-y: auto; /* Permet de défiler si le contenu dépasse */
+}
+
+/* Conteneur principal */
+.container {
+  background: rgba(255, 255, 255, 0.8); /* Couche semi-transparente */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+  
+  /* Titre principal */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4CAF50;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Cartes */
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Images */
+  .card-img-top {
+    height: 300px;
+    object-fit: cover;
+    border-bottom: 2px solid #4CAF50;
+  }
+  
+  /* Boutons */
+  .btn-primary {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+  }
+  
+  /* Liste des favoris */
+  h2 {
+    margin-top: 30px;
+    color: #555;
+  }
+  
+  .list-group-item {
+    font-size: 16px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    transition: transform 0.2s ease;
+  }
+  
+  .list-group-item:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.02);
+  }
+
+  .btn-danger {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c0392b;
+    transform: scale(1.1);
+  }
+  
+  @media (max-width: 768px) {
+    .card-img-top {
+      height: 150px;
+    }
+  
+    h1, h2 {
+      font-size: 1.5rem;
+    }
+  
+    .btn-primary {
+      font-size: 14px;
+      padding: 5px 10px;
+    }
+  }
+  
