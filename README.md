@@ -113,5 +113,3 @@ Le projet **Anime Gallery** est sous la **Licence MIT**. Cela signifie que vous 
 
 Si vous redistribuez le logiciel (soit dans son état original, soit modifié), vous devez inclure dans la documentation ou les fichiers de votre projet le texte complet de la licence MIT, incluant l'avis de copyright et la déclaration de non-responsabilité.
 
-Le texte de la licence MIT est le suivant :
-
