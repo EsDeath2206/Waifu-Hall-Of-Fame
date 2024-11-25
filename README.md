@@ -17,7 +17,7 @@ Ce projet est une **galerie d'images d'anime** créée avec Angular. Il affiche 
 
 Le projet **Anime Gallery** propose une interface simple pour afficher des images d'anime populaires et gérer une liste de favoris.
 
-
+```
 anime-gallery/
 ├── src/
 │   ├── app/
@@ -33,6 +33,7 @@ anime-gallery/
 │   └── environment.prod.ts
 ├── angular.json     # Configuration de Angular
 └── package.json     # Dépendances du projet
+```
 
 
 ### Fonctionnalités principales :
