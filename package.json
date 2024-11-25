@@ -18,7 +18,11 @@
     "@angular/platform-browser": "^18.2.0",
     "@angular/platform-browser-dynamic": "^18.2.0",
     "@angular/router": "^18.2.0",
+    "body-parser": "^1.20.3",
     "bootstrap": "^5.3.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.10"
@@ -35,5 +39,10 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.5.2"
-  }
+  },
+  "description": "Ce projet est une **galerie d'images d'anime** créée avec Angular. Il affiche une collection d'images issues de célèbres séries d'anime et permet à l'utilisateur d'ajouter ou de retirer des titres de sa liste de favoris.",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
